@@ -1,10 +1,6 @@
 <p align="center">
   <a href="https://desk.hsslive.cn" target="_blank">
-    <img
-      width="200"
-      src="https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/img/logo.png?raw=true"
-      alt="BilldDesk logo"
-    />
+    <img width="200" src="https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/img/logo.png?raw=true" alt="BilldDesk logo" />
   </a>
 </p>
 
@@ -13,208 +9,163 @@
 </h1>
 
 <p align="center">
- 基于Vue3 + WebRTC + Nodejs + Electron搭建的远程桌面控制
+  Remote desktop control built with Vue3 + WebRTC + Node.js + Electron
 </p>
 
 <div align="center">
-
-![stars](https://img.shields.io/github/stars/galaxy-s10/billd-desk)
-![forks](https://img.shields.io/github/forks/galaxy-s10/billd-desk)
-
-![version](https://img.shields.io/github/package-json/v/galaxy-s10/billd-desk)
-![License](https://img.shields.io/github/license/galaxy-s10/billd-desk)
-![language](https://img.shields.io/github/languages/top/galaxy-s10/billd-desk)
-![language](https://img.shields.io/github/languages/top/galaxy-s10/billd-desk-server)
-![language](https://img.shields.io/github/languages/top/galaxy-s10/billd-desk-flutter)
+  
+![stars](https://img.shields.io/github/stars/galaxy-s10/billd-deskields.io/github/forks/galon](https://img.shields.io/github/package-json/v/galse](https://img.shields.io/github/license/galaxy-s10/b://img.shields.io/github/languages/top/galaxy-s10/b://img.shields.io/github/languages/top/galaxy-s10/bage](https://img.shields.io/github/languages/top/galaxy-s10/billd-desk-flutter)
 
 </div>
 
-## 简介
+## Introduction
+
+BilldDesk is a remote desktop control software that currently implements features similar to ToDesk, Sunflower (向日葵), and other remote desktop tools.
 
-BilldDesk 远程桌面控制，目前实现了类似 ToDesk、向日葵等远程桌面的功能。
+## Comparison with ToDesk Free Personal Version
+The author has used many remote software tools: TeamViewer, Sunflower, ToDesk, AnyDesk, RustDesk, UU Remote, Lianlian Control, and QQ's built-in remote assistance, etc. But uses ToDesk free personal version more often, so here is a comparison between ToDesk and BilldDesk:
 
-## 对比ToDesk免费个人版
+| Feature | BilldDesk (Free) | ToDesk Free Personal Version |
+| --- | --- | --- |
+| Connection Limit | Unlimited, free | 200 times/month, max 80 hours/month connection, need pro version (¥24/month) after that |
+| Image Quality Limit | Unlimited, free | Max 1080p, 30fps |
+| Android Remote Control | Supported, free | Not supported, requires pro version (¥24/month) or plugin (¥15/month) |
+| Multi-screen Display | Supported, free | Not supported, requires performance version (¥95/month) |
+| Screen Wall | Supported, free | Not supported, requires ToDesk Enterprise (¥805/year) |
+| Remote Recording | Supported, free | Not supported |
+| Webpage Initiated Remote | Supported, free | Not supported, requires ToDesk Enterprise (¥805/year) |
+| Remote Control Webpage (View Only) | Supported, free | Not supported |
+| Multiple Controllers on Same Account | Supported, free | Supported, requires plugin (¥233/month) |
+| Private Deployment / Secondary Development | Supported, open source, free | Not supported, requires ToDesk Enterprise, pricing unknown |
 
-> 作者使用过很多远程软件：TeamViewer、向日葵、ToTesk、AnyDesk、RustDesk、UU远程、连连控，还有qq自带的远程协助等等，但用ToDesk免费个人版比较多，因此用ToTesk和BilldDesk作对比~
+## Ecosystem
 
-|                           | BilldDesk      | ToDesk免费个人版                                                |
-| ------------------------- | -------------- | --------------------------------------------------------------- |
-| 连接限制                  | 无限制，免费   | 200次/月，连接时长上限为80小时/月，超出需要购买专业版（¥24/月） |
-| 画质限制                  | 无限制，免费   | 最高1080p，30帧                                                 |
-| 安卓被控                  | 支持，免费     | 不支持，需要购买专业版（¥24/月）或购买插件（¥15/月）            |
-| 同时显示多屏              | 支持，免费     | 不支持，需要购买性能版（¥95/月）                                |
-| 屏幕墙                    | 支持，免费     | 不支持，需要购买ToDesk企业版（¥805/年）                         |
-| 远程时录屏                | 支持，免费     | 不支持                                                          |
-| web网页发起远程控制       | 支持，免费     | 不支持，需要购买ToDesk企业版（¥805/年）                         |
-| 远程控制web网页（仅观看） | 支持，免费     | 不支持                                                          |
-| 同账号多主控同时发起远控  | 支持，免费     | 支持，需要购买插件（¥233/月）                                   |
-| 私有化部署/二次开发       | 支持，开源免费 | 不支持，需要ToDesk企业版，定价未知                              |
+| Project Name | Repository | Stars & Forks | Online/Download Link |
+| --- | --- | --- | --- |
+| Remote Desktop Web/Client | billd-desk | [![GitHub stars](https://img.shields.io/github/stars/galaxy-s10/billd-desk?label=star&logoHub forks](https://img.shields.io/github/forks/galaxy-s10/billd-desk?label=fgithub.com/galaxy-s10/bill | https://desk.hsslive.cn |
+| Remote Desktop Backend | billd-desk-admin | [![GitHub stars](https://img.shields.io/github/stars/galaxy-s10/billd-desk-admin?label=starb.com/galaxy-s10/billd-desks](https://img.shields.io/github/forks/galaxy-s10/billd-desk-admin?label=forkb.com/galaxy-s10/billd-desk | https://desk-admin.hsslive.cn |
+| Remote Desktop Mobile | billd-desk-flutter | [![GitHub stars](https://img.shields.io/github/stars/galaxy-s10/billd-desk-flutter?label=starb.com/galaxy-s10/billd-desks](https://img.shields.io/github/forks/galaxy-s10/billd-desk-flutter?label=fgithub.com/galaxy-s10/bill | https://desk.hsslive.cn/#/download |
+| Remote Desktop Server | billd-desk-server | [![GitHub stars](https://img.shields.io/github/stars/galaxy-s10/billd-desk-server?label=starb.com/galaxy-s10/billd-desks](https://img.shields.io/github/forks/galaxy-s10/billd-desk-server?label=forkb.com/galaxy-s10/billd-desk | https://desk-api.hsslive.cn |
 
-## 生态
+## Features
 
-| 项目名称            | 代码仓库                                                               | star & fork                                                                                                                                                                                                                                                                                                     | 线上地址/下载地址                                                        |
-| ------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 远程桌面网页/客户端 | [billd-desk](https://github.com/galaxy-s10/billd-desk)                 | [![github](https://img.shields.io/github/stars/galaxy-s10/billd-desk?label=star&logo=GitHub)](https://github.com/galaxy-s10/billd-desk) [![github](https://img.shields.io/github/forks/galaxy-s10/billd-desk?label=fork&logo=GitHub)](https://github.com/galaxy-s10/billd-desk)                                 | [https://desk.hsslive.cn](https://desk.hsslive.cn)                       |
-| 远程桌面后台        | [billd-desk-admin](https://github.com/galaxy-s10/billd-desk-admin)     | [![github](https://img.shields.io/github/stars/galaxy-s10/billd-desk-admin?label=star&logo=GitHub)](https://github.com/galaxy-s10/billd-desk) [![github](https://img.shields.io/github/forks/galaxy-s10/billd-desk-admin?label=fork&logo=GitHub)](https://github.com/galaxy-s10/billd-desk-admin)               | [https://desk-admin.hsslive.cn](https://desk-admin.hsslive.cn)           |
-| 远程桌面移动端      | [billd-desk-flutter](https://github.com/galaxy-s10/billd-desk-flutter) | [![github](https://img.shields.io/github/stars/galaxy-s10/billd-desk-flutter?label=star&logo=GitHub)](https://github.com/galaxy-s10/billd-desk-flutter) [![github](https://img.shields.io/github/forks/galaxy-s10/billd-desk-flutter?label=fork&logo=GitHub)](https://github.com/galaxy-s10/billd-desk-flutter) | [https://desk.hsslive.cn/#/download](https://desk.hsslive.cn/#/download) |
-| 远程桌面服务端      | [billd-desk-server](https://github.com/galaxy-s10/billd-desk-server)   | [![github](https://img.shields.io/github/stars/galaxy-s10/billd-desk-server?label=star&logo=GitHub)](https://github.com/galaxy-s10/billd-desk-server) [![github](https://img.shields.io/github/forks/galaxy-s10/billd-desk-server?label=fork&logo=GitHub)](https://github.com/galaxy-s10/billd-desk-server)     | [https://desk-api.hsslive.cn](https://desk-api.hsslive.cn)               |
+- ✅ Control PC from web page
+- ✅ Control Android from web page
+- ✅ Control web page from web page (view only)
+- ✅ Control PC from PC
+- ✅ Control Android from PC
+- ✅ Control web page from PC (view only)
+- ⏳ Control PC from Android (TODO)
+- ⏳ Control Android from Android (TODO)
+- ⏳ Control web page from Android (view only, TODO)
+- ✅ Multiple devices remotely controlling one device simultaneously
+- ✅ One device remotely controlling multiple devices simultaneously
+- ✅ Multi-screen operation
+- ✅ Connection authentication
+- ✅ Custom device code
+- ✅ Custom interfaces (WSS/API/relay servers)
+- ✅ Keyboard shortcuts
+- ✅ File transfer
+- ✅ Auto start on boot
+- ✅ Screen lock keep-alive
+- ✅ Screen wall
+- ✅ Supports macOS
+- ✅ Supports Windows
+- ✅ Supports Linux (untested)
+- ✅ Supports Android (Flutter)
+- ✅ Supports iOS (Flutter)
+- ✅ Backend management
+- ✅ One-click Docker deployment
+- ✅ Supports private deployment
 
-## 功能
+More features: [features.md](features.md)
 
-- [x] `web网页` 控制 `电脑端`
-- [x] `web网页` 控制 `安卓端`
-- [x] `web网页` 控制 `web网页`（仅观看）
-- [x] `电脑端` 控制 `电脑端`
-- [x] `电脑端` 控制 `安卓端`
-- [x] `电脑端` 控制 `web网页`（仅观看）
-- [ ] `安卓端` 控制 `电脑端`
-- [ ] `安卓端` 控制 `安卓端`
-- [ ] `安卓端` 控制 `web网页`（仅观看）
-- [x] 多台设备同时远程一台设备
-- [x] 一台设备同时远程多台设备
-- [x] 多屏操作
-- [x] 连接鉴权
-- [ ] 自定义设备码
-- [x] 自定义接口（wws/api/中继服务器）
-- [x] 按键组合键
-- [x] 文件传输
-- [x] 开机自启
-- [x] 锁屏保活
-- [x] 屏幕墙
-- [x] 支持 macOS 系统
-- [x] 支持 Windows 系统
-- [x] 支持 Linux 系统（未实际测试）
-- [x] 支持 安卓端（Flutter）
-- [ ] 支持 苹果端（Flutter）
-- [ ] 后台管理
-- [ ] Docker一键部署
-- [x] 支持私有化部署
+## Preview
+Try it quickly: https://desk.hsslive.cn
 
-> 更多功能请查看：[features.md](docs/features.md)
+### Web/PC controlling PC
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/PC controlling Android)
 
-## 预览
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/read Web/PC controlling web page (view only))
 
-快速体验：[https://desk.hsslive.cn](https://desk.hsslive.cn)
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img mobile homepage)
 
-### web网页/电脑端控制电脑端
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/777.png?raw mobile control page)
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/111.png?raw=true)
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_imgen wall)
 
-### web网页/电脑端控制安卓端
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/read Android controlling PC [TODO])
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/222.png?raw=true)
+### Android controlling Android [TODO]
+### Android controlling web page (view only) [TODO]
+### File transfer
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/666.png?raws-platform support)
 
-### web网页/电脑端控制web网页
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/read Technology Stack)
 
-> 仅观看模式
+### Frontend: Vue3 and related tech stack, Typescript, WebRTC, WebCodecs, Web Worker, Web Audio, Canvas
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/333.png?raw=true)
+### Backend: Node.js and related tech stack, Koa2, Typescript, Sequelize, MySQL, Redis, Socket.io
 
-### web网页移动端
+### Desktop Client: Electron and related tech stack, WebRTC
 
-> 首页
+### Mobile Client: Flutter3 and related tech stack, WebRTC
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/777.png?raw=true)
+### Streaming Server: SRS, FFmpeg, Coturn
 
-> 控制页
+### Docker
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/888.png?raw=true)
+### Deployment: Alibaba Cloud DevOps, billd-deploy
 
-### 屏幕墙
+## Local Startup
+https://desk.hsslive.cn/s/qk
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/444.png?raw=true)
+billd-desk(pro) see [start-client.md](start-client.md)
 
-### 安卓端控制电脑端【TODO】
+billd-desk-server(pro) see [start-server.md](start-server.md)
 
-### 安卓端控制安卓端【TODO】
+billd-desk-flutter(pro) see [start-app.md](start-app.md)
 
-### 安卓端控制web网页【TODO】
+## API Documentation
+See [apifox](apifox)
 
-> 仅观看模式
+## Performance Testing
+See [benchmarking.md](benchmarking.md)
 
-### 文件传输
+## FAQ
+See [faq.md](faq.md)
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/666.png?raw=true)
+## Feedback
+Welcome to submit issues
 
-### 跨平台支持
+## Contributions
+Welcome to submit pull requests
 
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/555.png?raw=true)
+## Private Deployment
+BilldDesk is fully open source (commercial use allowed), welcome to deploy!
 
-## 技术栈
+## Client Download
+https://desk.hsslive.cn/s/bd
+Backup link: https://pan.quark.cn/s/2acbf2d49603
 
-- 前端相关：[Vue3](https://vuejs.org) 以及相关技术栈、`Typescript`、`WebRTC`、`WebCodecs`、`Web Workder`、`Web Audio`、`Canvas`
-- 后端相关：[Nodejs](https://nodejs.org) 以及相关技术栈、`Koa2`、`Typescript`、`Sequelize`、`Mysql`、`Redis`、`Socket.io`
-- 桌面客户端相关：[Electron](https://www.electronjs.org)以及相关技术栈、`WebRTC`
-- 移动客户端相关：[Flutter3](https://flutter.dev)以及相关技术栈、`WebRTC`
-- 流媒体服务器相关：[SRS](https://ossrs.net)、 [FFmpeg](https://ffmpeg.org)、[Coturn](https://github.com/coturn/coturn)
-- Docker 相关：[Docker](https://www.docker.com)
-- 部署相关：[阿里云云效](https://devops.aliyun.com)、[billd-deploy](https://github.com/galaxy-s10/billd-deploy)
+## Official Group
+![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/wechat_groui-platform Support)
 
-## 本地启动
+### Windows
 
-> https://desk.hsslive.cn/s/qk
+### macOS
 
-- [x] billd-desk(pro) 查看 [start-client.md](docs/start-client.md)
+### Linux
 
-- [x] billd-desk-server(pro) 查看 [start-server.md](docs/start-server.md)
+### Android 12+ (lower versions untested)
 
-- [x] billd-desk-fultter(pro) 查看 [start-app.md](docs/start-app.md)
+## Contributors
+<a href="https://github.com/galaxy-s10/billd-desk/graphs/contributors" target="_blank">
+  <img width="200" src="https://contrib.rocks/image?repo=galaxy-s10/billd-desk" alt="BilldDesk contributors" />
+</a>
 
-## 接口文档
+## Origin
+This project started as a derivative of billd-live, but later the author found remote desktop interesting and has continued to improve it.
 
-查看 [apifox](https://apifox.com/apidoc/shared-a8ba9715-7730-432d-896c-97f983050795)
-
-## 性能测试
-
-查看 [benchmarking.md](docs/benchmarking.md)
-
-## 常见问题
-
-查看 [faq.md](docs/faq.md)
-
-## 问题反馈
-
-欢迎提 [issue](https://github.com/galaxy-s10/billd-desk/issues)
-
-## 参与贡献
-
-欢迎提 [pr](https://github.com/galaxy-s10/billd-desk/pulls)
-
-## 私有化部署
-
-billd-desk完全开源（可商用），欢迎部署！
-
-## 客户端下载
-
-> https://desk.hsslive.cn/s/bd
->
-> 备用链接：https://pan.quark.cn/s/2acbf2d49603
-
-## 官方交流群
-
-![img](https://github.com/galaxy-s10/billd-desk/blob/main/src/assets/readme_img/wechat_group.jpg?raw=true)
-
-## 多平台支持
-
-- [x] Windows
-- [x] macOS
-- [x] Linux
-- [x] Android 12+，低于该版本的未实际测试
-
-## 贡献者
-
-  <a href="https://github.com/galaxy-s10/billd-desk/graphs/contributors" target="_blank">
-    <img
-      width="200"
-      src="https://contrib.rocks/image?repo=galaxy-s10/billd-desk"
-      alt="BilldDesk logo"
-    />
-  </a>
-
-## 初心
-
-该项目初心只是作为[billd-live](https://github.com/galaxy-s10/billd-live)的衍生项目，但后面觉得远程桌面也挺有意思的，就一直坚持完善下去。
-
-## 愿景
-
-各大远程软件虽然免费都能用，但免费版的功能覆盖不够全面，比如有些普通个人用户可能只是临时需要远程一下安卓手机，但却需要开通一个月的服务才可以。BilldDesk完善了这些基本功能，让普通用户也能用上~
+## Vision
+Although many remote software tools offer free versions, their free features are limited. For example, some ordinary personal users may only need to remotely control an Android phone temporarily but have to pay for a monthly subscription. BilldDesk improves these basic functions to make them accessible to ordinary users.
